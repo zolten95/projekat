@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registracija Trenera</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript/jquery.min.js"></script>
+    <script src="JavaScript/DodavanjeTrenera.js"></script>
+</head>
+<body>
+    <div class="container">
+       <form id="FormaTrenera">
+          <h1>Registracija trenera</h1>
+          <div class="form-group">
+               <label for="poljeImena">Ime</label>
+               <input id = "poljeImena" name = "ime" type="text" class="form-control" required>
+           </div>
+           <div class="form-group">
+               <label for="poljePrezimena">Prezime</label>
+               <input id = "poljePrezimena" name = "prezime" type="text" class="form-control" required>
+           </div>
+           <div class="form-group">
+               <label for="poljeDatum">Datum rodjenja</label>
+               <input id = "poljeDatum" name = "datum_rodjenja" type="text" class="form-control" required>
+           </div>
+           <div class="form-group">
+               <label for="poljeKime">Korisnicko ime</label>
+               <input id = "poljeKime" name = "korisnicko_ime" type="text" class="form-control" required>
+           </div>
+           <div class="form-group">
+               <label for="poljeLozinke">Lozinka</label>
+               <input id = "poljeLozinke" name = "lozinka" type="password" class="form-control" required>
+           </div>
+           <div class="form-group">
+               <label for="poljeTelefona">Kontakt telefon</label>
+               <input id = "poljeTelefona" name = "kontakt" type="text" class="form-control" required>
+           </div>
+           <div class="form-group">
+               <label for="poljeEmaila">Email</label>
+               <input id = "poljeEmaila" name = "email" type="email" class="form-control" required>
+           </div>
+           <input type="submit" class="btn" value="Registruj se">
+       </form>
+   </div>
+</body>
+</html>
