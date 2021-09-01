@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <script src="JavaScript/jquery.min.js"></script>
+  <script src="JavaScript/trenerProfil.js "></script>
+  <title>TrenerPage </title>
+
+
+
+</head>
+<body>
+<div class="box">
+
+  <table id="termini">
+
+    <tbody>
+    <tr>
+
+      <th>Datum</th>
+      <th>Naziv treninga</th>
+      <th>Cena treninga</th>
+      <th>Oznaka sale</th>
+
+
+
+
+    </tr>
+
+    </tbody>
+
+  </table>
+
+
+
+  <div class="row">
+    <div class="column">
+      <p><b>Dodaj novi termin</b></p>
+      <form id="terminform">
+
+        <label for="datumiField"><b><i>Datum</i></b></label>
+        <input id="datumiField" type="text" name="date" />
+        <br/>
+
+        <label for="treningField"><b><i>Naziv treninga</i></b></label>
+        <select id="select1">
+        </select>
+        <br/>
+        <br/>
+        <label for="cenaField"><b><i>Cena treninga</i></b></label>
+        <input id="cenaField" type="text" name="cena" placeholder="Unesite cenu">
+        <br/>
+        <label for="salaField"><b><i>Oznaka sale</i></b></label>
+        <select id="select2">
+        </select>
+
+        <br/>
+
+        <input type="submit" value="Dodaj termin ">
+      </form>
+    </div>
+    <div class="column">
+      <p><b>Unesite podatke za azuriranje i pritisnite dugme kod termina</b></p>
+      <form id="updatee">
+        <label for="datumiPolje"><b><i>Datum</i></b></label>
+        <input id="datumiPolje" type="text" name="date" />
+        <br/>
+        <label for="treningPolje"><b><i>Naziv treninga</i></b></label>
+        <select id="select3">
+        </select>
+
+        <br/>
+        <label for="cenaPolje"><b><i>Cena treninga</i></b></label>
+        <input id="cenaPolje" type="text" name="cena" placeholder="Unesite cenu">
+        <br/>
+        <label for="salaPolje"><b><i>Oznaka sale</i></b></label>
+        <select id="select4">
+        </select>
+        <br/>
+
+        <br/>
+        <input type="submit" value="Azuriraj ">
+      </form>
+
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <script src="JavaScript/jquery.min.js"></script>
+        <script src="JavaScript/jquery.validate.min.js"></script>
+        <script src="JavaScript/profil.js"></script>
+        <title>Profil </title>
+    </head>
+
+    <body id="poseban">
+        <div class="box">
+            
+            <table id="profil">
+                    <tbody>
+                            <tr>
+                                <th>Cena</th>
+                                <th>Naziv</th>
+                                <th>Opis</th>
+                                <th>Tip</th>
+                                <th>Trajanje</th>
+                            </tr>
+                    </tbody>
+                </table>
+                <br/>
+                <button  onclick="sortiraj()">Sortiraj po ceni</button> 
+                <br/>
+                <br/>
+                <form id="Pretraga">
+                <label for="poljePretraga"><b><i>Pretraga treninga:</i></b></label>
+                <input id="poljePretraga" type="text" name="pretraga"/>
+                    
+                <input type="submit", class="btn" value="Pretraga">
+                </form>
+
+            <a href = "PregledProfila.html" >Pregledaj svoj profil</a>
+            <br/>
+            <br/>
+
+            <a href = "PrijavljeniTreninzi.html" >Prijavljeni treninzi</a>
+        </div>
+
+    </body>
+
+</html>

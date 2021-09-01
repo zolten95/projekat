@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>AdminPage </title>
+    <script src="JavaScript/jquery.min.js"></script>
+    <script src="JavaScript/administrator.js"></script>
+
+
+</head>
+<body>
+<div class="box">
+    <table id="fitnessi">
+
+        <tbody>
+        <tr>
+            <th>Naziv</th>
+            <th>Adresa </th>
+            <th>Email </th>
+            <th>Broj telefonske centrale</th>
+
+
+
+
+
+        </tr>
+
+        </tbody>
+    </table>
+    <div class="row">
+        <div class="column">
+            <p><b>Dodaj novi fitness centar</b></p>
+            <form id="Fitnesscentarform">
+                <label for="NazivField" ><b><i>Naziv: </i></b> </label>
+
+                <input id="nazivField" type="text" name="Naziv" placeholder="Unesite naziv"
+                       maxlength="35" />
+                <br/>
+                <br/>
+                <label for="adresaField"> <b><i>Adresa:</i></b> </label>
+                <input id="adresaField" type="text" name="Adresa" placeholder="Unesite adresu"
+                       maxlength="35" />
+                <br/>
+                <br/>
+                <label for="brField" ><b><i> Broj telefonske centrale:</i></b></label>
+                <input id="brField" type="text" name="br" placeholder="Unesite broj centrale"
+                       maxlength="35" />
+                <br/>
+
+                <br/>
+                <label for="emailField"><b><i>E-mail</i></b></label>
+                <input id="emailField" type="text" name="email" placeholder="Unesite svoj email"/>
+                <br/>
+                <br/>
+
+                <input type="submit" value="Dodaj fitness centar ">
+                <br/>
+                <br/>
+            </form>
+        </div>
+        <div class="column">
+
+        </div>
+    </div>
+
+
+
+
+
+    <a href = "UklanjanjeTrenera.html" >Uklanjanje Trenera</a>
+    <br/>
+
+
+
+
+    <br/>
+    <button onclick="window.location.href='Sale.html'">Pregled sala</button>
+
+
+
+
+    <div class="column">
+        <p><b>Unesite podatke za azuriranje fitnes centra</b></p>
+        <form id="update">
+            <label for="Naziv" ><b><i>Naziv: </i></b> </label>
+            <input id="naziv" type="text" name="Naziv" placeholder="Unesite naziv"
+                   maxlength="35" >
+            <br/>
+            <br/>
+            <label for="Adresa"> <b><i>Adresa:</i></b> </label>
+            <input id="adresa" type="text" name="Adresa" placeholder="Unesite adresu"
+                   maxlength="35" />
+            <br/>
+            <br/>
+            <label for="Br" ><b><i> Broj telefonske centrale: </i></b></label>
+            <input id="br" type="text" name="br" placeholder="Unesite broj centrale"
+                   maxlength="35" />
+            <br/>
+
+            <br/>
+            <label for="Email"><b><i>E-mail</i></b></label>
+            <input id="email" type="text" name="email" placeholder="Unesite svoj email"/>
+            <br/>
+            <br/>
+        </form>
+    </div>
+</div>
+
+
+</div>
+</body>
+</html>
